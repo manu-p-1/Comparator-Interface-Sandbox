@@ -5,7 +5,7 @@ public class Driver {
 	
 	public static void main(String[] args) {
 		Employee[] ee = {
-				new Employee("Manu", 1),
+				new Employee("Dwight", 1),
 				new Employee("Jim", 5),
 				new Employee("Michael", 61),
 				new Employee("Kevin", 22),
