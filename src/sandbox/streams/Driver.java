@@ -5,8 +5,7 @@ import java.util.Arrays;
 public class Driver {
 	
 	public static void main(String[] args) {
-<<<<<<< HEAD
-	
+
 		//Dont ask me how I derived these salaries :)
 		Staff[] staffArray = {
 				new Employee("Jim", 52113, "Salesman", 50000),
@@ -33,17 +32,7 @@ public class Driver {
 				///
 				new Exec("David", 70000, "CFO", 500000)
 		};		
-=======
-		Employee[] ee = {
-				new Employee("Dwight", 1),
-				new Employee("Jim", 5),
-				new Employee("Michael", 61),
-				new Employee("Kevin", 22),
-				new Employee("Pam", 34),
-				new Employee("Toby", 69),
-				new Employee("Oscar", 52)};
->>>>>>> 2f64d7e6bf53b7e058422b9a559afe99a433dd9e
-		
+
 		Staff[] eeSort = ArrayUtil.sort(staffArray, (o1,o2) -> o1.getId().compareTo(o2.getId()));
 		Arrays.stream(eeSort).forEach(e -> {
 			System.out.println(e);
