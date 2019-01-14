@@ -3,7 +3,7 @@ package sandbox.streams;
 import java.util.Arrays;
 
 public class Driver {
-	
+
 	public static void main(String[] args) {
 
 		//Dont ask me how I derived these salaries :)
@@ -31,7 +31,7 @@ public class Driver {
 				new Employee("Michael", 52127, "Regional Manager", 80000),
 				///
 				new Exec("David", 70000, "CFO", 500000)
-		};		
+		};
 
 		Staff[] eeSort = ArrayUtil.sort(staffArray, (o1,o2) -> o1.getId().compareTo(o2.getId()));
 		Arrays.stream(eeSort).forEach(e -> {
