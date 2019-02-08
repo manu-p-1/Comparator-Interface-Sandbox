@@ -34,9 +34,6 @@ public class Driver {
 		};
 
 		Staff[] eeSort = ArrayUtil.sort(staffArray, (o1,o2) -> o1.getId().compareTo(o2.getId()));
-		Arrays.stream(eeSort).forEach(e -> {
-			System.out.println(e);
-			System.out.println();
-		});
+		Arrays.stream(eeSort).forEach(System.out::println);		
 	}
 }
