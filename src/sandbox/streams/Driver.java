@@ -10,7 +10,7 @@ public class Driver {
 		Staff[] staffArray = {
 				new Employee("Jim", 52113, "Salesman", 50000),
 				new Employee("Pam", 52114, "Salesman", 40000),
-				new Employee("Dwight", 52115, "Salesman/Assistant (to the) Regional Manager", 70000),
+				new Employee("Dwight", 52115, "Salesman/Assistant (to the) Regional Manager", 80000),
 				///
 				new Employee("Stanley", 52116, "Salesman", 50000),
 				new Employee("Phyllis", 52117, "Salesman", 50000),
@@ -28,7 +28,7 @@ public class Driver {
 				///
 				new Employee("Erin", 52126, "Receptionist", 20000),
 				///
-				new Employee("Michael", 52127, "Regional Manager", 80000),
+				new Employee("Michael", 52127, "Regional Manager", 60000),
 				///
 				new Exec("David", 70000, "CFO", 500000)
 		};
